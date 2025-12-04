@@ -5,8 +5,8 @@ stages:
     deps:
     - path: data/raw_data.txt
       hash: md5
-      md5: c249573c803f7bea297a45e004a4a528
-      size: 78
+      md5: 1cbc4f2009e4957e3eb413d60820f353
+      size: 102
     - path: src/process.py
       hash: md5
       md5: a6aa9153290972decb53e999bbbd4747
@@ -14,5 +14,5 @@ stages:
     outs:
     - path: data/processed_data.txt
       hash: md5
-      md5: 3b30cc4e442efe2c753d7f24527b72e2
-      size: 78
+      md5: e5c5ebc9f431ac6307d4f53569fb51dd
+      size: 102

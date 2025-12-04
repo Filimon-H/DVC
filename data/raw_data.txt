@@ -1,3 +1,0 @@
-Hello DVC!
-This is my raw data.
-DVC is awesome.

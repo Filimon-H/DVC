@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  process:
+    cmd: python src/process.py
+    deps:
+    - path: data/raw_data.txt
+      hash: md5
+      md5: c249573c803f7bea297a45e004a4a528
+      size: 78
+    - path: src/process.py
+      hash: md5
+      md5: a6aa9153290972decb53e999bbbd4747
+      size: 353
+    outs:
+    - path: data/processed_data.txt
+      hash: md5
+      md5: 3b30cc4e442efe2c753d7f24527b72e2
+      size: 78

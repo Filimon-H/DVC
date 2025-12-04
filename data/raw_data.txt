@@ -1,7 +1,0 @@
-Hello DVC!
-This is my raw data.
-DVC is awesome.
-This is a new line added!
-new line
-new line again
-new line 
